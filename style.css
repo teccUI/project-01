@@ -1,0 +1,260 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --blue-primary: #4c5fd5;
+  --pink-primary: #d8dbf1;
+  --black-primary: #000;
+  --black-secondary: #181A1C;
+  --white-primary: #fff;
+  
+}
+
+
+/* styling the nav element */
+nav{
+  margin: auto;
+  display: flex;
+  width: auto;
+  max-width: 1400px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  max-height: max-content;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  background-color: var(--black-primary);
+}
+.logo{
+  color: var(--white-primary);
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* styling nav buttons*/
+
+.ctas{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+button{
+  padding: 10px 12px;
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  border: 1px solid var(--pink-primary);
+  /* letter-spacing: -0.2px; */
+  
+  border-radius: 8px;
+  /* border-color: var(--white-primary); */
+}
+.secondary{
+  background-color: var(--black-secondary);
+  color: var(--white-primary);
+  cursor: pointer;
+}
+.primary{
+  background-color: var(--blue-primary);
+  color: var(--white-primary);
+  border: none;
+  cursor: pointer;
+}
+
+
+/* styling help section */
+.help{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 16px;
+  
+  width: auto;
+  max-width: 1400px;
+  height: 400px;
+
+  background-color: var(--pink-primary);
+
+}
+.main-heading{
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 42px;
+  letter-spacing: -1.4px;
+}
+
+.search-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+  width: 400px;
+  height: 40px;
+  padding-left: 12px;
+
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+
+  border: 1px solid var(--pink-primary);
+  border-radius: 4px;
+  filter: drop-shadow(4px 2px var(--pink-primary) 4px);
+}
+
+/* styling benefits section */
+
+.content-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.content-container{
+  /* margin: auto; */
+  padding-top: 48px;
+  max-width: 1000px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 16px;
+  align-items: center;
+  justify-content: center;
+
+}
+.content-card{
+  display: flex;
+  width: auto;
+  min-height: 180px;
+  max-height: fit-content;
+  
+  gap: 16px;
+  padding: 12px;
+  stroke: 1px solid black;
+}
+.icon{
+  width: 68px;
+  height: 68px;
+  
+}
+.content-right{
+  display: flex;
+  width: 260px;
+  flex-direction: column;
+  gap: 6px;
+}
+.content-title{
+  display: contents;
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+}
+.content-body{
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+}
+.card-link{
+  text-decoration: none;
+  color: var(--black-secondary);
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+  display: inline-block;
+}
+
+/* styling footer section */
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+  max-width: 1400px;
+  height: 300px;
+  margin: auto;
+
+  background-color: var(--black-primary);
+  color: #fff;
+}
+
+.footer-content-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding-top: 42px;
+}
+
+.content-heading{
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+}
+.content-links{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  font-family: 'Inter', sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: -0.2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.material-icons {
+  font-size: 12px;
+}
